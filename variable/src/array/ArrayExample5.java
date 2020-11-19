@@ -22,12 +22,20 @@ public class ArrayExample5 {
 				{ 21 }, 
 				{ 31, 32 } 
 			};
+		for(int i=0;i<intAry2.length;i++) {
+			int sum=0;
+			for(int j=0;j<intAry2[i].length;j++) {
+				sum+=intAry2[i][j];
+			}
+			System.out.println("합: " + sum);
+			System.out.println("평균: " + sum/intAry2[i].length);
+		} 
 
 		//숙제 intAry2의 배열의 각 합, 평균 구하기.
 		//결과 : intAry2[0] => 합 : ??, 평균 : ??
 		//결과 : intAry2[1] => 합 : ??, 평균 : ??
 		//결과 : intAry2[2] => 합 : ??, 평균 : ??
 
+			
 	}
-
 }
